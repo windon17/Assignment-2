@@ -1,0 +1,141 @@
+body {
+    width: 960px;
+}
+h1, h2, h3, h4, h5, p, a, li {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3, a {
+    color: #30396D;
+}
+.page-header {
+    background-image: url("../images/sky.jpeg");
+    height: 429px;
+    width: 100%;
+}
+
+.page-header h1, .page-header h2{
+    color: white;
+    text-align: center;
+}
+
+.header-text {
+    margin-top: 30px;
+}
+
+.header-nav {
+    float: right;
+}
+.page-header a {
+    clear: both; 
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+    margin: 5px;
+}
+/* main content */
+
+article {
+    float: left;
+    width: 70%;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.post-date {
+    font-weight: bold;
+}
+
+.text-box {
+    border: 1px solid #888;
+margin: auto; 
+text-align: center; 
+    width: 50%;
+}
+
+/* sidebar */
+aside {
+    float: right;
+    margin-bottom: 5px;
+    width: 25%;
+}
+
+aside div {
+    border-bottom: solid 3px #30396D;
+    padding: 2px;
+}
+
+.featured-image img {
+    width: 100%;
+}
+.tags {
+    list-style: none; 
+}
+
+.tags li {
+    display: inline-block;
+    border: solid 1px #30396D;
+    margin: 2px;
+    padding: 2px;
+}
+
+/* footer */
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #30396D;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+footer a, footer li, footer h3 {
+    color: white;
+    text-decoration: none;
+}
+
+footer h3 {
+    text-align: left;
+}
+
+.news {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: 30%;
+}
+
+.events {
+display: inline-block;
+margin-right: 5px;
+vertical-align: top;
+    width: 30%;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.socials {
+display: inline-block;
+    width: 30%;
+}
+
+.socials li {
+    border: solid 1px white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
